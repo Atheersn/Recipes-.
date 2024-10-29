@@ -13,7 +13,7 @@ struct FoodRecipesView: View {
                     Image(systemName: "fork.knife.circle")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 200, height: 201)
                         .foregroundColor(.orange)
                     
                     Text("There's no recipe yet")
